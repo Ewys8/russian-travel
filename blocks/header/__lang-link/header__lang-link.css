@@ -6,7 +6,7 @@
     letter-spacing: 0em;    
 }
 
-.lang-link:hover {
+.header__lang-link:hover {
     opacity: 80%;
     cursor: pointer;
     transition: opacity 200ms ease-in-out;
