@@ -56,10 +56,10 @@ url(../blocks/intro/__paragraph/intro__paragraph.css);
 url(../blocks/intro/__list/intro__list.css);
 
 @import
-url(../blocks/intro/__list/__list-item/intro__list-item.css);
+url(../blocks/intro/__item/intro__item.css);
 
 @import
-url(../blocks/intro/__list/__list-item/_type/intro__list-item_type_digit.css);
+url(../blocks/intro/__item/_type/intro__item_type_digit.css);
 
 @import
 url(../blocks/gallery/gallery.css);
