@@ -6,6 +6,7 @@
     text-align: left;
     color: #AAAAAA;
     margin: 0;
+    text-transform: uppercase;
 }
 
 @media (max-width: 1023px) {

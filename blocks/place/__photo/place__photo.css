@@ -21,6 +21,30 @@
 
 @media (max-width: 767px) {
     .place__photo {
-        width: 100%;
+        height: 600px;
+        width: 600px;
+        margin: auto;
     }
+}
+
+@media (max-width: 599px) {
+  .place__photo {
+      height: 450px;
+      width: 450px;
+  }
+}
+
+@media (max-width: 459px) {
+  .place__photo {
+      height: 380px;
+      width: 380px;
+
+  }
+}
+
+@media (max-width: 379px) {
+  .place__photo {
+      max-height: 320px;
+      max-width: 320px;
+  }
 }

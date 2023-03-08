@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
-    grid-template-areas: 
+    grid-template-areas:
     "title website"
     "photo description";
 }
@@ -23,12 +23,33 @@
 
 @media (max-width: 767px) {
     .place {
+        max-width: 600px;
+        margin: auto;
         grid-template-columns: 1fr;
         gap: 32px;
-        grid-template-areas: 
+        grid-template-areas:
         "title"
         "website"
         "photo"
         "description";
     }
 }
+
+@media (max-width: 599px) {
+  .place {
+      max-width: 450px;
+  }
+}
+
+@media (max-width: 449px) {
+  .place {
+      max-width: 380px;
+  }
+}
+
+@media (max-width: 379px) {
+  .place {
+      max-width: 320px;
+  }
+}
+

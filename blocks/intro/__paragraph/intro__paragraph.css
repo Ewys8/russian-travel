@@ -9,17 +9,3 @@
     padding-bottom: 33px;
     margin: 0;
 }
-
-@media (max-width: 1023px) {
-    
-    .intro__paragraph {
-        width: 100%;
-    }
-}
-    
-@media (max-width: 767px) {
-    
-    .intro__paragraph {
-        width: 100%;
-        }
-}

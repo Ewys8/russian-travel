@@ -6,10 +6,10 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
+    transition: opacity 200ms ease-in-out;
 }
 
 .place__website-link:hover {
     opacity: 80%;
     cursor: pointer;
-    transition: opacity 200ms ease-in-out;
 }
